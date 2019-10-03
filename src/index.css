@@ -1,13 +1,164 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+body{
+    font-family: 'Oswald',sans-serif!important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.navbar{
+    padding: 0px !important;
 }
+
+.min{
+height: 55px;
+width: 100%;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+}
+
+.text{
+    text-align: left;
+}
+
+
+.img__1{
+padding-left: 0px;
+padding-right: 0px;
+margin: 0px;
+height: 640px;
+
+}
+
+container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px;
+}
+
+.z__index--100{
+    z-index: 100;
+}
+
+.ps{
+
+    bottom: 500px !important;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black !important;
+}
+
+.container__1--prdu{
+width: 90% !important;
+}
+
+.col__g{
+background-color: #cccccc;
+}
+
+.padding__0{
+padding-left: 0px;
+padding-right: 0px ;
+}
+
+
+.padding__t{
+    padding-right: 10px !important;
+}
+
+.w{
+    width: 70%;
+    margin-left: 50px; 
+}
+
+.col-12{
+    padding-left: 0px !important;
+    padding-right: 0px !important;  
+}
+
+
+.paddingd{
+    padding: 40px;
+
+}
+
+.col-d{
+    background-color: black;
+    color: white;
+   
+}
+
+.col-5{
+    padding-left: 0px !important;
+    padding-right: 0px !important;  
+}
+
+.col-6{
+    padding-left: 0px !important;
+    padding-right: 0px !important;  
+}
+
+.box-s{
+    box-shadow: 0 1px 10px 1px ;
+    margin: auto;
+}
+
+.hey{
+    padding-left: 10px;
+}
+
+.display-3{
+    font-size: 40px !important;
+}
+
+.p-7{
+    padding: 7rem !important;
+}
+
+.p-8{
+    padding: 6rem !important;
+}
+
+.co3{
+    padding-left: 0px !important;
+}
+a{
+    color: #383838 !important;
+}
+
+.li1{
+    background-color: black !important;
+    color: white !important;
+    border-radius:0px !important;
+}
+
+.f{
+font-size: 17px;
+}
+
+.col123{
+    background-color: #dddddd;
+  
+}
+
+
+@media screen and (max-width: 360px) {
+
+    
+.p-7{
+    padding: 6rem !important;
+    margin: auto !important;
+}
+
+.p-8{
+    padding: 1rem !important;
+    margin: auto !important;
+}
+.paddingd{
+    padding: 5px;
+}
+  }
+
